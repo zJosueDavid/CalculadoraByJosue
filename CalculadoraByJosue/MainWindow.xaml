@@ -24,7 +24,7 @@
         <Grid.Background>
             <ImageBrush ImageSource="/a.jpg"/>
         </Grid.Background>
-        <TextBox HorizontalAlignment="Left" Margin="130,57,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="176" Height="39"/>
+        <TextBox x:Name="Screen" HorizontalAlignment="Left" Margin="130,57,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="176" Height="39"/>
         <Button x:Name="_1bt" Content="1" HorizontalAlignment="Left" Height="35" Margin="66,123,0,0" VerticalAlignment="Top" Width="56" />
         <Button x:Name="_2bt" Content="2" HorizontalAlignment="Left" Height="35" Margin="66,172,0,0" VerticalAlignment="Top" Width="56"/>
         <Button x:Name="_3bt" Content="3" HorizontalAlignment="Left" Height="35" Margin="66,220,0,0" VerticalAlignment="Top" Width="56" />
